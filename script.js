@@ -203,6 +203,7 @@ var _monthToString = /*#__PURE__*/new WeakSet();
 var DateHome = /*#__PURE__*/function () {
   function DateHome(DateSelector) {
     _classCallCheck(this, DateHome);
+    // eslint-disable-next-line class-methods-use-this
     _classPrivateMethodInitSpec(this, _monthToString);
     // eslint-disable-next-line class-methods-use-this
     _classPrivateMethodInitSpec(this, _dayToString);
